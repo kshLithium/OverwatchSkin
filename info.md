@@ -16,25 +16,9 @@ https://us.battle.net/shop/en/checkout/pay/dmN8MjYwNWU4OGZ8MTUzNTAxNnwxfE1BUktFV
 
 https://us.battle.net/shop/en/checkout/pay/dmN8YzQ5YzE3ZjB8MTAxNzI3OHwxfE1BUktFVFBMQUNFfA== - 할로윈번들
 
--------
-
-중간중간 다른겜 아이템도 팔음
-
-
-
-https://us.battle.net/shop/en/checkout/purchase-eligibility/dmN8NmY5NjllYmN8MTE3MzY0OXwxfE1BUktFVFBMQUNFfA==
-
-purchase-eligibility
-
-product-name meka-font-display meka-font-display--header-7
+https://us.battle.net/shop/en/checkout/pay/dmN8OWRiZjhkYTV8MTEyMjY4NHwxfE1BUktFVFBMQUNFfA== - 모이라 블랙워치 번들
 
 ------
-
-번호랑 링크 쌍으로 저장하기
-
-강제로 종료되기도 하니 try도 넣어서
-
---------
 
 le sserafim bundle - 1512701
 
@@ -57,10 +41,6 @@ one punch man mega bundle - 1119035
 lifeguard mercy - 1290533
 
 ----
-
-1169555 ~ 117000 없음
-
-1180508 까지 탐색햇는데 다시해야함
 
 886000 ~ 886500
 
@@ -539,7 +519,7 @@ https://us.battle.net/shop/en/checkout/pay/dmN8YzQ5YzE3ZjB8MTAxNzI3OHwxfE1BUktFV
 
 1020000 ~ 1052000
 
-ㄴㄴ
+없음
 
 1052000 ~ 1053000
 
