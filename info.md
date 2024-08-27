@@ -28,13 +28,7 @@ purchase-eligibility
 
 product-name meka-font-display meka-font-display--header-7
 
-
-
-유효한 링크(위의 purchase도 포함되게끔) 나오면 하드 txt에 바로 append하고
-
-종료시 어디까지 탐색했는지 번호 알려주고 안전하게 out
-
-멀티스레드로 가능한지? 연산 본체로 돌릴까?
+------
 
 번호랑 링크 쌍으로 저장하기
 
@@ -1370,3 +1364,4 @@ https://us.battle.net/shop/en/checkout/pay/dmN8ZTZkMGQzMWJ8MTEyMjgxOHwxfE1BUktFV
 https://us.battle.net/shop/en/checkout/pay/dmN8Y2E3MjAwZWN8MTEyMjgyNnwxfE1BUktFVFBMQUNFfA==
 https://us.battle.net/shop/en/checkout/pay/dmN8Mzk0ZTU0OTR8MTEyMjgyOXwxfE1BUktFVFBMQUNFfA==
 
+1125000 까지 확인 완
