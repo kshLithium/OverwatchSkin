@@ -8,11 +8,11 @@ session = requests.Session()
 session.cookies.set("loc", "en-us")
 session.cookies.set("login.cookies", "1")
 session.cookies.set("opt", "1")
-session.cookies.set("_st", "")
-session.cookies.set("BA-tassadar-login.key", "")
-session.cookies.set("JSESSIONID", "")
-session.cookies.set("login.key", "")
-session.cookies.set("web.id", "")
+session.cookies.set("_st", "your _st")
+session.cookies.set("BA-tassadar-login.key", "your BA-tassadar-login.key")
+session.cookies.set("JSESSIONID", "your JSESSIONID")
+session.cookies.set("login.key", "your login.key")
+session.cookies.set("web.id", "your web.id")
 
 # URL 설정
 base_url = "https://us.battle.net/shop/en/checkout/buy/{}"
@@ -98,17 +98,17 @@ while True:
     )
 
     # 오버워치 페이지를 파일에 저장
-    with open("overwatch2.txt", "a") as file:
+    with open("overwatch.txt", "a", encoding="utf-8") as file:
         for page in overwatch_pages:
             file.write(page + "\n")
-    print(f"\n오버워치 아이템 {len(overwatch_pages)}개를 overwatch2.txt에 저장했습니다")
+    print(f"\n오버워치 아이템 {len(overwatch_pages)}개를 overwatch.txt에 저장했습니다")
 
     # 오버워치 아이템이 아닌 페이지를 파일에 저장
-    with open("not_overwatch2.txt", "a") as file:
+    with open("not_overwatch.txt", "a", encoding="utf-8") as file:
         for page in not_overwatch_pages:
             file.write(page + "\n")
     print(
-        f"그 외 아이템 {len(not_overwatch_pages)}개를 not_overwatch2.txt에 저장했습니다\n"
+        f"그 외 아이템 {len(not_overwatch_pages)}개를 not_overwatch.txt에 저장했습니다\n"
     )
 
     if not is_continue:
