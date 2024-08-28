@@ -30,6 +30,7 @@ def get_item_name_from_page(text, url):
         item_name = item_name_class.get_text(strip=True)
         print("*************** " + item_name + " ***************")
     else:
+        item_name = "item name NOT found"
         print("*******아이템 이름을 찾을 수 없습니다*******")
 
     item_set = url + " --- " + item_name
