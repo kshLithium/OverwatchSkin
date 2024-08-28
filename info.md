@@ -19,28 +19,24 @@ https://us.battle.net/shop/en/checkout/pay/dmN8YzQ5YzE3ZjB8MTAxNzI3OHwxfE1BUktFV
 https://us.battle.net/shop/en/checkout/pay/dmN8OWRiZjhkYTV8MTEyMjY4NHwxfE1BUktFVFBMQUNFfA== - 모이라 블랙워치 번들
 
 ------
-
-le sserafim bundle - 1512701
-
-le sserafim dva - 1512702
-
-le sserafim tracer - 1512703
-
-le sserafim brigitte - 1512729
-
-le sserafim sombra - 1512730
-
-le sserafim kiriko - 1512731
-
-kiriko terrible tornado - 1079019
-
-doomfist saitama - 1079965
-
-one punch man mega bundle - 1119035
-
-lifeguard mercy - 1290533
+500000 ~ 505546 ~
+1120736 ~ 1548642 까지 완
 
 ----
+
+<img slot="icon" class="virtual-currency-icon" alt="Overwatch League Tokens" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt040cc2d5e8234f6d/OWL_VirtualCurrency.svg">
+
+OWL_VirtualCurrency.svg
+
+<img slot="icon" class="virtual-currency-icon" alt="Overwatch Coins" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blta0dcc11657537871/OW2_VirtualCurrency.svg">
+
+OW2_VirtualCurrency.svg
+
+<img slot="icon" class="virtual-currency-icon" alt="Diablo Platinum" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt40af45aa6f7cb7dd/D4_Platinum_VirtualCurrency.png">
+
+D4_Platinum_VirtualCurrency.png
+
+-----
 
 886000 ~ 886500
 
