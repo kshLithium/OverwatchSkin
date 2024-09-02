@@ -5,27 +5,22 @@ from bs4 import BeautifulSoup
 session = requests.Session()
 
 # 로그인 쿠키 설정
-session.cookies.set("loc", "en-us")
-session.cookies.set("login.cookies", "1")
-session.cookies.set("opt", "1")
-session.cookies.set("_st", "your _st")
 session.cookies.set("BA-tassadar-login.key", "your BA-tassadar-login.key")
 session.cookies.set("JSESSIONID", "your JSESSIONID")
-session.cookies.set("login.key", "your login.key")
-session.cookies.set("web.id", "your web.id")
 
 # URL 설정
 base_url = "https://us.battle.net/shop/en/checkout/buy/{}"
 
 
-# return value : 아이템 set(아이템 이름, URL)
-def get_item_name_from_page(text, url):
-    # 아이템 이름 파싱
-    soup = BeautifulSoup(text, "html.parser")
+# return value : 아이템 이름
+def get_item_name(page_text):
+    # 파싱
+    soup = BeautifulSoup(page_text, "html.parser")
     item_name_class = soup.find(
         class_="product-name meka-font-display meka-font-display--header-7"
     )
 
+    # item_name 생성
     if item_name_class:
         item_name = item_name_class.get_text(strip=True)
         print("*************** " + item_name + " ***************")
@@ -33,11 +28,13 @@ def get_item_name_from_page(text, url):
         item_name = "item name NOT found"
         print("*******아이템 이름을 찾을 수 없습니다*******")
 
-    item_set = url + " --- " + item_name
-    return item_set
+    return item_name
 
 
-# return value : 유효한 페이지들, 계속 진행 가능 여부
+# def get_item_price(page_text):
+
+
+# return value : 오버워치 페이지, 계속 진행 가능 여부, 그외 페이지
 def check_pages(start_number, end_number):
     overwatch_pages = []
     not_overwatch_pages = []
@@ -49,13 +46,13 @@ def check_pages(start_number, end_number):
         try:
             response = session.get(url, allow_redirects=True)
             final_url = response.url
+            page_text = response.text
 
             # URL에 pay/ 포함되어 있으면 유효한 오버워치 아이템 페이지
             if "pay/" in final_url:
                 print(f"유효한 페이지 : {url}")
 
-                # 아이템 이름 get
-                item_set = get_item_name_from_page(response.text, url)
+                item_set = url + " --- " + get_item_name(page_text)
                 overwatch_pages.append(item_set)
 
             # URL에 login/이 포함되어 있으면 로그인 세션 정보 잃음
@@ -70,8 +67,7 @@ def check_pages(start_number, end_number):
             ):
                 print(f"maybe not overwatch item : {final_url}")
 
-                # 아이템 이름 get
-                item_set = get_item_name_from_page(response.text, url)
+                item_set = url + " --- " + get_item_name(page_text)
                 not_overwatch_pages.append(item_set)
 
             # 그 외의 페이지는 무효
@@ -86,36 +82,42 @@ def check_pages(start_number, end_number):
     return overwatch_pages, True, not_overwatch_pages
 
 
-start_number = int(input("검토 시작할 숫자 입력 : "))
+def main():
+    start_number = int(input("검토 시작할 숫자 입력 : "))
 
-# 프로그램 실행
-while True:
-    # 끝 번호 설정
-    end_number = start_number + 999
+    while True:
+        # 끝 번호 설정
+        end_number = start_number + 999
 
-    # 오버워치 페이지, 계속 진행 가능 여부 받기
-    overwatch_pages, is_continue, not_overwatch_pages = check_pages(
-        start_number, end_number
-    )
+        # 오버워치 페이지, 계속 진행 가능 여부 받기
+        overwatch_pages, is_continue, not_overwatch_pages = check_pages(
+            start_number, end_number
+        )
 
-    # 오버워치 페이지를 파일에 저장
-    with open("overwatch.txt", "a", encoding="utf-8") as file:
-        for page in overwatch_pages:
-            file.write(page + "\n")
-    print(f"\n오버워치 아이템 {len(overwatch_pages)}개를 overwatch.txt에 저장했습니다")
+        # 오버워치 페이지를 파일에 저장
+        with open("overwatch.txt", "a", encoding="utf-8") as file:
+            for page in overwatch_pages:
+                file.write(page + "\n")
+        print(
+            f"\n오버워치 아이템 {len(overwatch_pages)}개를 overwatch.txt에 저장했습니다"
+        )
 
-    # 오버워치 아이템이 아닌 페이지를 파일에 저장
-    with open("not_overwatch.txt", "a", encoding="utf-8") as file:
-        for page in not_overwatch_pages:
-            file.write(page + "\n")
-    print(
-        f"그 외 아이템 {len(not_overwatch_pages)}개를 not_overwatch.txt에 저장했습니다\n"
-    )
+        # 오버워치 아이템이 아닌 페이지를 파일에 저장
+        with open("not_overwatch.txt", "a", encoding="utf-8") as file:
+            for page in not_overwatch_pages:
+                file.write(page + "\n")
+        print(
+            f"그 외 아이템 {len(not_overwatch_pages)}개를 not_overwatch.txt에 저장했습니다\n"
+        )
 
-    if not is_continue:
-        print("프로그램을 종료합니다")
-        file.close()
-        break
+        if not is_continue:
+            print("프로그램을 종료합니다")
+            file.close()
+            break
 
-    # 마지막 검토한 숫자에서 다시 시작
-    start_number = end_number + 1
+        # 마지막 검토한 숫자에서 다시 시작
+        start_number = end_number + 1
+
+
+if __name__ == "__main__":
+    main()
