@@ -34,7 +34,7 @@ def get_item_name(page_text):
 # def get_item_price(page_text):
 
 
-# return value : 오버워치 페이지, 계속 진행 가능 여부, 그외 페이지
+# return value : 오버워치 페이지, 오버워치가 아닌 페이지, 계속 진행 가능 여부
 def check_pages(start_number, end_number):
     overwatch_pages = []
     not_overwatch_pages = []
@@ -59,7 +59,7 @@ def check_pages(start_number, end_number):
             elif "login/" in final_url:
                 print(f"로그인 세션 정보 잃음 : {final_url}")
                 print("마지막으로 검사한 번호 : ", number - 1)
-                return overwatch_pages, False, not_overwatch_pages
+                return overwatch_pages, not_overwatch_pages, False
 
             # URL에 purchase-eligibility/이나 region-selection/이 포함되어 있으면 오버워치 아이템이 아닐 가능성이 높음
             elif (
@@ -77,9 +77,9 @@ def check_pages(start_number, end_number):
         except:
             print("****************예외 발생***************")
             print("마지막으로 검사한 번호 : ", number - 1)
-            return overwatch_pages, False, not_overwatch_pages
+            return overwatch_pages, not_overwatch_pages, False
 
-    return overwatch_pages, True, not_overwatch_pages
+    return overwatch_pages, not_overwatch_pages, True
 
 
 def main():
@@ -90,29 +90,32 @@ def main():
         end_number = start_number + 999
 
         # 오버워치 페이지, 계속 진행 가능 여부 받기
-        overwatch_pages, is_continue, not_overwatch_pages = check_pages(
+        overwatch_pages, not_overwatch_pages, is_continue = check_pages(
             start_number, end_number
         )
 
         # 오버워치 페이지를 파일에 저장
-        with open("overwatch.txt", "a", encoding="utf-8") as file:
+        overwatch_file_name = "overwatch.txt"
+        with open(overwatch_file_name, "a", encoding="utf-8") as file_overwatch:
             for page in overwatch_pages:
-                file.write(page + "\n")
+                file_overwatch.write(page + "\n")
         print(
-            f"\n오버워치 아이템 {len(overwatch_pages)}개를 overwatch.txt에 저장했습니다"
+            f"\n오버워치 아이템 {len(overwatch_pages)}개를 {overwatch_file_name}에 저장했습니다"
         )
 
         # 오버워치 아이템이 아닌 페이지를 파일에 저장
-        with open("not_overwatch.txt", "a", encoding="utf-8") as file:
+        not_overwatch_file_name = "not_overwatch.txt"
+        with open(not_overwatch_file_name, "a", encoding="utf-8") as file_not_overwatch:
             for page in not_overwatch_pages:
-                file.write(page + "\n")
+                file_not_overwatch.write(page + "\n")
         print(
-            f"그 외 아이템 {len(not_overwatch_pages)}개를 not_overwatch.txt에 저장했습니다\n"
+            f"그 외 아이템 {len(not_overwatch_pages)}개를 {not_overwatch_file_name}에 저장했습니다\n"
         )
 
         if not is_continue:
             print("프로그램을 종료합니다")
-            file.close()
+            file_overwatch.close()
+            file_not_overwatch.close()
             break
 
         # 마지막 검토한 숫자에서 다시 시작
