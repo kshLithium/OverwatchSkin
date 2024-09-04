@@ -1,23 +1,4 @@
-https://us.battle.net/shop/en/checkout/buy/20886 --- World of Warcraft® Subscription - 3 Months
-https://us.battle.net/shop/en/checkout/buy/20887 --- World of Warcraft® Subscription - 6 Months
-https://us.battle.net/shop/en/checkout/buy/20907 --- Commander Vorazun
-https://us.battle.net/shop/en/checkout/buy/20908 --- Commander Zagara
-https://us.battle.net/shop/en/checkout/buy/20909 --- Commander Swann
-https://us.battle.net/shop/en/checkout/buy/20910 --- Commander Karax
-https://us.battle.net/shop/en/checkout/buy/20911 --- World of Warcraft® Subscription - 1 Month
-https://us.battle.net/shop/en/checkout/buy/21299 --- Nova Covert Ops: Mission Pack 1
-https://us.battle.net/shop/en/checkout/buy/21303 --- Nova Covert Ops: Mission Pack 2
-https://us.battle.net/shop/en/checkout/buy/22042 --- Commander: Abathur
-https://us.battle.net/shop/en/checkout/buy/22244 --- Commander: Alarak
-https://us.battle.net/shop/en/checkout/buy/22245 --- Commander: Nova
-https://us.battle.net/shop/en/checkout/buy/22282 --- Tyrande Whisperwind Hero Set
-https://us.battle.net/shop/en/checkout/buy/22291 --- Announcer: Abathur
-https://us.battle.net/shop/en/checkout/buy/22292 --- Announcer: Raynor
-https://us.battle.net/shop/en/checkout/buy/22293 --- Announcer: Artanis
-https://us.battle.net/shop/en/checkout/buy/22294 --- Announcer: Kerrigan
-https://us.battle.net/shop/en/checkout/buy/22295 --- Announcer: Swann
-https://us.battle.net/shop/en/checkout/buy/22296 --- Announcer: Alarak
-https://us.battle.net/shop/en/checkout/buy/22562 --- Announcer: D.Va
+
 https://us.battle.net/shop/en/checkout/buy/22583 --- Evolved Roach
 https://us.battle.net/shop/en/checkout/buy/22584 --- Advanced Stalker
 https://us.battle.net/shop/en/checkout/buy/22585 --- Upgraded Marauder
@@ -1223,7 +1204,6 @@ https://us.battle.net/shop/en/checkout/buy/876392 --- Bastion - Antique
 https://us.battle.net/shop/en/checkout/buy/876393 --- Bastion - Woodbot
 
 
-https://us.battle.net/shop/en/checkout/buy/876403 --- Wrecking Ball - Los Angeles Valiant
 
 https://us.battle.net/shop/en/checkout/buy/693997 --- Roadhog - Cyberhog
 https://us.battle.net/shop/en/checkout/buy/693998 --- Symmetra - Art Deco
@@ -1730,7 +1710,6 @@ https://us.battle.net/shop/en/checkout/buy/877151 --- Locked and Loaded
 https://us.battle.net/shop/en/checkout/buy/877152 --- Hooah
 https://us.battle.net/shop/en/checkout/buy/877154 --- Strike Commander
 https://us.battle.net/shop/en/checkout/buy/877155 --- Muzzle
-https://us.battle.net/shop/en/checkout/buy/877156 --- Wrecking Ball - Submarine
 https://us.battle.net/shop/en/checkout/buy/877157 --- I didn't start this war...
 https://us.battle.net/shop/en/checkout/buy/877158 --- Old soldiers
 https://us.battle.net/shop/en/checkout/buy/877159 --- What are you lookin' at?
@@ -2688,7 +2667,6 @@ https://us.battle.net/shop/en/checkout/buy/878330 --- Mermaid
 https://us.battle.net/shop/en/checkout/buy/878331 --- Mermaid
 https://us.battle.net/shop/en/checkout/buy/878332 --- Grillmaster
 
-https://us.battle.net/shop/en/checkout/buy/878337 --- Wrecking Ball - Snowman
 
 https://us.battle.net/shop/en/checkout/buy/878339 --- Vampire Hunter
 https://us.battle.net/shop/en/checkout/buy/878340 --- Vampire Hunter
@@ -4002,17 +3980,13 @@ https://us.battle.net/shop/en/checkout/buy/880338 --- Odds of success increasing
 https://us.battle.net/shop/en/checkout/buy/880339 --- Profanity filter enabled
 https://us.battle.net/shop/en/checkout/buy/880340 --- Do not disturb
 
-https://us.battle.net/shop/en/checkout/buy/880341 --- Wrecking Ball - Lithium
-https://us.battle.net/shop/en/checkout/buy/880342 --- Wrecking Ball - Smoke
-https://us.battle.net/shop/en/checkout/buy/880343 --- Wrecking Ball - Potassium
-https://us.battle.net/shop/en/checkout/buy/880344 --- Wrecking Ball - Chloride
+
 
 https://us.battle.net/shop/en/checkout/buy/880347 --- Relief detected
 https://us.battle.net/shop/en/checkout/buy/880348 --- Vocabulary not found
 https://us.battle.net/shop/en/checkout/buy/880349 --- He says he's sorry
 
-https://us.battle.net/shop/en/checkout/buy/880350 --- Wrecking Ball - Biohazard
-https://us.battle.net/shop/en/checkout/buy/880351 --- Wrecking Ball - Wooden Ball
+
 
 https://us.battle.net/shop/en/checkout/buy/880352 --- Icon
 https://us.battle.net/shop/en/checkout/buy/880353 --- Crown
@@ -4044,10 +4018,7 @@ https://us.battle.net/shop/en/checkout/buy/880385 --- Medal
 https://us.battle.net/shop/en/checkout/buy/880387 --- Evolution
 https://us.battle.net/shop/en/checkout/buy/880388 --- Champion
 
-https://us.battle.net/shop/en/checkout/buy/880389 --- Wrecking Ball - Junker
-https://us.battle.net/shop/en/checkout/buy/880390 --- Wrecking Ball - Mayham
-https://us.battle.net/shop/en/checkout/buy/880391 --- Wrecking Ball - Lunar
-https://us.battle.net/shop/en/checkout/buy/880392 --- Wrecking Ball - Horizon
+
 
 https://us.battle.net/shop/en/checkout/buy/880396 --- Sombra - Mexicana
 
@@ -4071,8 +4042,7 @@ https://us.battle.net/shop/en/checkout/buy/880420 --- Be the ball
 https://us.battle.net/shop/en/checkout/buy/880421 --- Dare to Lindholm
 https://us.battle.net/shop/en/checkout/buy/880422 --- Better living through science
 
-https://us.battle.net/shop/en/checkout/buy/880425 --- Wrecking Ball - Boston Uprising
-https://us.battle.net/shop/en/checkout/buy/880426 --- Wrecking Ball - Dallas Fuel
+
 
 https://us.battle.net/shop/en/checkout/buy/880427 --- Hammer Throw
 https://us.battle.net/shop/en/checkout/buy/880428 --- Bowling
@@ -4088,14 +4058,7 @@ https://us.battle.net/shop/en/checkout/buy/880461 --- Step into the ring
 https://us.battle.net/shop/en/checkout/buy/880462 --- Come on, ref!
 https://us.battle.net/shop/en/checkout/buy/880463 --- Russian judge
 
-https://us.battle.net/shop/en/checkout/buy/880466 --- Wrecking Ball - Jack-o'-lantern
-https://us.battle.net/shop/en/checkout/buy/880467 --- Wrecking Ball - London Spitfire
-https://us.battle.net/shop/en/checkout/buy/880468 --- Wrecking Ball - Los Angeles Gladiators
-https://us.battle.net/shop/en/checkout/buy/880471 --- Wrecking Ball - Houston Outlaws
-https://us.battle.net/shop/en/checkout/buy/880472 --- Wrecking Ball - New York Excelsior
-https://us.battle.net/shop/en/checkout/buy/880474 --- Wrecking Ball - Seoul Dynasty
-https://us.battle.net/shop/en/checkout/buy/880475 --- Wrecking Ball - Shanghai Dragons
-https://us.battle.net/shop/en/checkout/buy/880487 --- Wrecking Ball - Philadelphia Fusion
+
 https://us.battle.net/shop/en/checkout/buy/880489 --- Reaper - Lü Bu
 
 https://us.battle.net/shop/en/checkout/buy/880492 --- Marshmallows
@@ -4327,7 +4290,6 @@ https://us.battle.net/shop/en/checkout/buy/880864 --- Sombra - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880881 --- Doomfist - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880883 --- Lúcio - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880885 --- Zarya - Guangzhou Charge
-https://us.battle.net/shop/en/checkout/buy/880886 --- Wrecking Ball - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880887 --- Cassidy - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880890 --- Bastion - Guangzhou Charge
 https://us.battle.net/shop/en/checkout/buy/880892 --- Winston - Guangzhou Charge
@@ -4341,7 +4303,6 @@ https://us.battle.net/shop/en/checkout/buy/880938 --- Reaper - Hangzhou Spark
 https://us.battle.net/shop/en/checkout/buy/880940 --- Sombra - Hangzhou Spark
 https://us.battle.net/shop/en/checkout/buy/880942 --- Lúcio - Hangzhou Spark
 https://us.battle.net/shop/en/checkout/buy/880946 --- Winston - Hangzhou Spark
-https://us.battle.net/shop/en/checkout/buy/880947 --- Wrecking Ball - Hangzhou Spark
 https://us.battle.net/shop/en/checkout/buy/880948 --- Cassidy - Hangzhou Spark
 
 https://us.battle.net/shop/en/checkout/buy/880950 --- Bastion - Hangzhou Spark
@@ -4357,7 +4318,6 @@ https://us.battle.net/shop/en/checkout/buy/881003 --- Doomfist - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881004 --- Sombra - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881008 --- Lúcio - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881009 --- Zarya - Paris Eternal
-https://us.battle.net/shop/en/checkout/buy/881011 --- Wrecking Ball - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881012 --- Bastion - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881013 --- Winston - Paris Eternal
 https://us.battle.net/shop/en/checkout/buy/881016 --- Roadhog - Paris Eternal
@@ -4372,7 +4332,6 @@ https://us.battle.net/shop/en/checkout/buy/881058 --- Toronto Defiant
 https://us.battle.net/shop/en/checkout/buy/881062 --- Roadhog - Toronto Defiant
 https://us.battle.net/shop/en/checkout/buy/881064 --- Reaper - Vancouver Titans
 https://us.battle.net/shop/en/checkout/buy/881069 --- Lúcio - Toronto Defiant
-https://us.battle.net/shop/en/checkout/buy/881072 --- Wrecking Ball - Toronto Defiant
 https://us.battle.net/shop/en/checkout/buy/881073 --- Cassidy - Toronto Defiant
 https://us.battle.net/shop/en/checkout/buy/881078 --- Winston - Toronto Defiant
 https://us.battle.net/shop/en/checkout/buy/881080 --- Brigitte - Vancouver Titans
@@ -4387,8 +4346,7 @@ https://us.battle.net/shop/en/checkout/buy/881102 --- Doomfist - Washington Just
 https://us.battle.net/shop/en/checkout/buy/881103 --- Sombra - Washington Justice
 https://us.battle.net/shop/en/checkout/buy/881104 --- Lúcio - Washington Justice
 https://us.battle.net/shop/en/checkout/buy/881105 --- Zarya - Washington Justice
-https://us.battle.net/shop/en/checkout/buy/881106 --- Wrecking Ball - Washington Justice
-https://us.battle.net/shop/en/checkout/buy/881107 --- Wrecking Ball - Vancouver Titans
+
 https://us.battle.net/shop/en/checkout/buy/881108 --- Cassidy - Vancouver Titans
 https://us.battle.net/shop/en/checkout/buy/881112 --- Bastion - Vancouver Titans
 https://us.battle.net/shop/en/checkout/buy/881115 --- Vancouver Titans
@@ -4406,7 +4364,6 @@ https://us.battle.net/shop/en/checkout/buy/881218 --- Doomfist - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881219 --- Sombra - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881222 --- Lúcio - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881224 --- Zarya - Atlanta Reign
-https://us.battle.net/shop/en/checkout/buy/881226 --- Wrecking Ball - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881227 --- Cassidy - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881231 --- Bastion - Atlanta Reign
 https://us.battle.net/shop/en/checkout/buy/881233 --- Winston - Atlanta Reign
@@ -4631,7 +4588,6 @@ https://us.battle.net/shop/en/checkout/buy/881537 --- Sombra - Face Changer
 https://us.battle.net/shop/en/checkout/buy/881538 --- Strongest woman
 https://us.battle.net/shop/en/checkout/buy/881539 --- No point rushing in
 
-https://us.battle.net/shop/en/checkout/buy/881540 --- Wrecking Ball - San Francisco Shock
 
 https://us.battle.net/shop/en/checkout/buy/881541 --- Tropical
 https://us.battle.net/shop/en/checkout/buy/881542 --- Spirits live within me
@@ -4937,7 +4893,6 @@ https://us.battle.net/shop/en/checkout/buy/881929 --- You work too hard
 https://us.battle.net/shop/en/checkout/buy/881930 --- Persistence
 https://us.battle.net/shop/en/checkout/buy/881932 --- Reindeer
 
-https://us.battle.net/shop/en/checkout/buy/881951 --- Wrecking Ball - Florida Mayhem
 
 https://us.battle.net/shop/en/checkout/buy/881952 --- Mission Complete
 https://us.battle.net/shop/en/checkout/buy/881953 --- Touchdown
@@ -5403,7 +5358,6 @@ https://us.battle.net/shop/en/checkout/buy/1052953 --- Mercy - Owl Guardian
 https://us.battle.net/shop/en/checkout/buy/1052954 --- Death Stare
 https://us.battle.net/shop/en/checkout/buy/1052957 --- Orisa - Star Sheep
 https://us.battle.net/shop/en/checkout/buy/1052959 --- Planet
-https://us.battle.net/shop/en/checkout/buy/1053906 --- Wrecking Ball - Crustacean
 https://us.battle.net/shop/en/checkout/buy/1053928 --- Mei - Hu Tou Mao
 https://us.battle.net/shop/en/checkout/buy/1053929 --- Genji - Street Runner
 https://us.battle.net/shop/en/checkout/buy/1053930 --- Echo - Ice Angel
