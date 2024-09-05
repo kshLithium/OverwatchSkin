@@ -31,7 +31,7 @@ def get_item_name(page_text):
 # def get_item_price(page_text):
 
 
-# return value : 리그코인, 오버워치 코인, 알 수 없는 화폐
+# return value : 가격 타입
 # TODO: fix this function
 def get_price_type(page_text):
     soup = BeautifulSoup(page_text, "html.parser")

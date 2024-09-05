@@ -19,12 +19,19 @@
 이미지 해석하기? - 이미지 없는 제품들도 있음
 
 
+<img slot="icon" class="virtual-currency-icon" alt="Overwatch League Tokens" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt040cc2d5e8234f6d/OWL_VirtualCurrency.svg">
 
-내가 껏을 때와 진짜 에러났을 때 구분해서 처리?
+OWL_VirtualCurrency.svg
 
-except Exception 처리
+<img slot="icon" class="virtual-currency-icon" alt="Overwatch Coins" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blta0dcc11657537871/OW2_VirtualCurrency.svg">
 
-에러구문 보고싶은데
+OW2_VirtualCurrency.svg
+
+<img slot="icon" class="virtual-currency-icon" alt="Diablo Platinum" src="https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/blt40af45aa6f7cb7dd/D4_Platinum_VirtualCurrency.png">
+
+D4_Platinum_VirtualCurrency.png
+
+
 
 
 
@@ -50,7 +57,7 @@ session.mount("http://", adapter)
 
 # 로그인 쿠키 설정
 session.cookies.set('login.cookies', '1')
-session.cookies.set('login.key', '48b0c2aabf4ae3ff3387179c59fb5d59')
+session.cookies.set('login.key', '')
 
 # URL 설정
 url = "https://us.battle.net/shop/en/checkout/buy/1168357"
