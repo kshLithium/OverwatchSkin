@@ -32,7 +32,7 @@
 ![Genji - 2018 Pacific](./imgs/Genji_Pacific.png)
 [Genji - 2018 Pacific All-Stars](https://us.battle.net/shop/en/checkout/buy/880274)
 
-![Gilded Hunter](./imgs/Gilded_Hunter.png)
+![Gilded Hunter](./imgs/Gilded_Hunter.jpeg)
 [Sombra - Gilded Hunter](https://us.battle.net/shop/en/checkout/buy/1535016)
 
 ![Tracer - 2018 Atlantic](./imgs/Tracer_Atlantic.png)
