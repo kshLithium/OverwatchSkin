@@ -1,7 +1,3 @@
 .venv
 .DS_Store
-info.md
-all_not.txt
-all.txt
 implements.md
-convert.py
